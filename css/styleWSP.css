@@ -1,0 +1,597 @@
+/***************************************
+
+============================= Button CSS =============================
+
+**********************************/
+
+.theme_button {
+    display: inline-block;
+}
+.theme_button a , .theme_button button{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #25D366;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 20px 24px;
+    text-transform: capitalize;
+    transition: all .5s ease;
+    cursor: pointer;
+    border: none;
+}
+.theme_button a:hover , .theme_button button:hover {
+    color: #ffffff;
+    background-color: #25D366 !important;
+}
+
+/************************************
+
+============================= Animation CSS =============================
+
+*************************************/
+
+@keyframes on-scroll {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(-10px, 10px);
+    }
+}
+
+@keyframes ripple {
+    0%,
+    35% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+
+/*************************************
+
+================================= Whatsapp Chat Public CSS ==========================
+
+**************************************/
+
+/*--- Nav |  01  |  Side-Slide --*/
+.side-slide .widget_title { 
+    padding: 0px 0px 20px 0px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: capitalize;
+    margin-top: 40px;
+    display: inline-block;
+}
+.side-slide h1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 20px;
+}
+.side-slide #whatsapp_chat_call_button_shape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.side-slide div#whatsapp_chat_call_button_type ,
+.side-slide #whatsapp_chat_display_text , 
+.side-slide #whatsapp_chat_display_icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.side-slide div#whatsapp_chat_call_button_type .radio_list_item_wrap , 
+.side-slide #whatsapp_chat_display_text .radio_list_item_wrap,
+.side-slide #whatsapp_chat_display_icon .radio_list_item_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.side-slide input {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #075E54;
+}
+.side-slide div#whatsapp_chat_call_button_type label ,
+.side-slide #whatsapp_chat_display_text label ,
+.side-slide #whatsapp_chat_display_icon label{
+    background-color: #075E54;;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.call_button_desc {
+    display: none;
+}
+.agent_detail_box_2 .wc_svg_wrapper,
+.agent_detail_box_1 .wc_svg_wrapper{
+    display: block !important;
+}
+.call_button.call_button_lyt_1.call_button_icon_show.call_button_text_show .wc_svg_wrapper{
+    display: none;
+}
+
+.call_button_icon_show.call_button_text_show .call_button_wrapper .call_button_svg{
+    padding: 17.5px !important;
+} 
+  
+.call_button_text_show .call_button_desc {
+    display: inline-block;
+    color:#fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.call_button.call_button_text_show , .call_button_text_show .call_button_wrapper .call_button_svg {
+    width: auto !IMPORTANT;
+    height: auto !IMPORTANT; 
+}
+.call_button_text_show .call_button_wrapper .call_button_svg { 
+    padding: 13px;
+}
+.call_button_text_show .wc_svg_wrapper {
+    margin-right: 8px;
+}
+.side-slide  select {
+    width: 250px;
+    text-align: center;
+    height: 50px;
+    background:#075e54;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+}
+.custom-select {
+    background-image: url(../images/svg/down-arrow.svg) !important;
+    background-position: 95% center !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* -------------------------------- */
+
+.call_button_svg.Stroke {
+    background: transparent !important;
+    border: 2px solid #25d366;
+}
+.call_button_svg.Stroke .call_button_desc  {
+    color: #25d366;
+}
+.call_button_svg.Stroke svg , .call_button_svg.Stroke svg path {
+    fill: #25d366;
+}
+.call_button_svg.call_button_close_svg.Stroke svg path{
+    stroke: #25D366;
+}
+.agent_detail_wrapper {
+    max-width: 330px;
+    position: fixed;
+    bottom: 130px;
+    right: 130px;
+}
+.call_button .call_button_svg {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.agent_detail_box .btn-whatsapp {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.btn-whatsapp {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+}
+.btn-whatsapp {
+    background-color: #25d366;
+}
+
+/*****************************/
+
+.widget_title {
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+#whatsapp_chat_call_button_shape input {
+    display: none;
+}
+.call_button.firecall_text_icon_enabled .call_button_svg {
+    width: auto;
+    height: auto;
+    padding: 18px;
+}
+.call_button.firecall_text_icon_enabled .call_button_svg svg {
+    margin-right: 8px;
+}
+.call_button_desc {
+    height: 25px;
+}
+.call_button_desc h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+.call_button {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 99;
+}
+.call_button .call_button_svg {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #25d366;
+}
+.call_button .call_button_svg.call_button_svg_stroke {
+    border-width: 2px;
+    border-style: solid;
+}
+.call_button.firecall_text_enabled .call_button_svg {
+    width: auto;
+    height: auto;
+}
+.call_button.firecall_text_enabled .call_button_desc h2 {
+    padding: 18px;
+}
+.shape_two {
+    border-radius: 10px !important;
+}
+.shape_three {
+    border-radius: 30px !important;
+}
+.shape_four {
+    border-radius: 0 !important;
+}
+.shape_five {
+    border-radius: 30px 30px 30px 0px !important;
+}
+.shape_six {
+    border-radius: 30px 0px !important;
+}
+.shape_seven {
+    border-radius: 20px 5px !important;
+}
+.call_button.firecall_text_enabled .call_button_close_svg {
+    width: 60px;
+    height: 60px;
+}
+.call_button.firecall_text_enabled .call_button_desc {
+    height: auto;
+}
+
+.agent_detail_box_1_open .agent_detail_box.agent_detail_box_1.agent_detail_box_lyt_6 {
+    display: block !important;
+}
+.agent_detail_box.agent_detail_box_1.agent_detail_box_lyt_6 {
+    display: none !important;
+}
+
+.agent_detail_box_2_open .agent_detail_box.agent_detail_box_2.agent_detail_box_lyt_6 {
+    display: block !important;
+}
+.agent_detail_box.agent_detail_box_2.agent_detail_box_lyt_6 {
+    display: none !important;
+}
+
+/****************** Media Query CSS ****************************/
+
+@media (max-width: 1199px) {
+    .call_button {
+        bottom: 50px;
+        right: 50px;
+    }
+    .agent_image_wrapper{
+        bottom: 120px;
+        right: 50px;
+    }
+    .agent_right_block {
+        bottom: 120px;
+        right: 50px;
+    } 
+    nav.side-slide {
+        padding: 25px 20px;
+        width: 510px;
+    } 
+}
+@media (max-width: 991px) {
+    .call_button  {
+        bottom: 40px;
+        right: 40px;
+    } 
+    .agent_right_block ,.agent_image_wrapper {
+        bottom: 110px;
+        right: 40px;
+    }
+    .agent_detail_wrapper { 
+        bottom: 115px;
+        right: 130px;
+    }
+    nav.side-slide {
+        width: 450px; 
+    }
+    .side-slide #whatsapp_chat_call_button_shape>div{
+        width:calc(25% - 30px);
+        text-align: center;
+    }
+    .side-slide #whatsapp_chat_call_button_shape { 
+        justify-content: space-evenly;
+    }
+    #whatsapp_chat_call_button_shape .radio_list_item_wrap {
+        padding: 5px 15px 0px;
+    }
+    .counter_column>div {
+        margin: 10px 15px;
+    }
+    .counter_row {
+        top: -75px;
+    }
+}
+
+@media (max-width: 767px) {
+    .call_button  {
+        bottom: 30px;
+        right: 30px;
+    }
+    .agent_right_block , .agent_image_wrapper{
+        bottom: 100px;
+        right: 30px;
+    }
+    .agent_detail_wrapper {
+        bottom: 105px;
+        right: 110px;
+    }
+    .agent_detail_box_wrapper_lyt {
+        max-width: 320px;
+    }
+
+    .agent_card_top_content_lyt {
+        padding: 15px;
+    }
+
+    .agent_card_icon_lyt svg {
+        width: 36px;
+        height: 36px;
+    }
+    .agent_card_top_content_lyt .agent_card_title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .agent_card_bottom_content_lyt {
+        padding: 15px;
+    }
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        padding: 15px 15px 15px 40px;
+    }
+    .agent_det_box_layout_4 .agent_detail_share_wrapper {
+        padding: 15px 0;
+    }
+    .agent_det_box_layout_5 .agent_detail_share_wrapper {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .agent_detail_wrapper {
+        max-width: 220px;
+        bottom: 105px;
+        right: 105px;
+    }
+    .agent_detail_box.agent_detail_box_lyt_6,
+    .agent_detail_box.agent_detail_box_lyt_7,
+    .agent_detail_box.agent_detail_box_lyt_8,
+    .agent_detail_box.agent_detail_box_lyt_9,
+    .agent_detail_box.agent_detail_box_lyt_10 {
+        width: 220px;
+        max-width: 330px;
+    }
+}
+@media (max-width: 500px){ 
+    nav.side-slide {
+        width: 360px; 
+    } 
+}
+
+@media (max-width: 450px) {
+    .agent_detail_box_wrapper_lyt {
+        max-width: 300px;
+    }
+
+    .agent_card_top_content_lyt .agent_card_icon_title_wrapper {
+        margin-bottom: 5px;
+    }
+
+    .agent_card_icon_lyt svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .agent_card_bottom_content_lyt .agent_image {
+        max-width: 55px;
+    }
+
+    .agent_card_bottom_content_lyt .agent_name h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        max-width: 240px;
+    }
+
+    .agent_det_box_layout_4 .agent_detail_share_wrapper {
+        padding: 10px 0;
+    }
+    nav.side-slide {
+        width: 330px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .agent_detail_box_wrapper_lyt {
+        max-width: 280px;
+    }
+    .agent_card_top_content_lyt {
+        padding: 10px;
+    }
+    .agent_card_icon_lyt svg {
+        width: 28px;
+        height: 28px;
+    }
+    .agent_card_top_content_lyt .agent_card_title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .agent_card_bottom_content_lyt {
+        padding: 10px;
+    }
+    .agent_card_bottom_content_lyt .agent_image {
+        max-width: 50px;
+    }
+    .agent_card_bottom_content_lyt .agent_name h2 {
+        line-height: 18px;
+    }
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        max-width: 230px;
+    }
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        padding: 15px 15px 15px 30px;
+    }
+
+    .agent_det_box_layout_5 .agent_detail_share_wrapper {
+        padding: 12px;
+    }
+    nav.side-slide {
+        width: 88%; 
+    }
+    .counter_column {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 350px) {
+    .call_button {
+        bottom: 20px;
+        right: 20px;
+    }  
+    .call_button .call_button_svg svg {
+        width: 30px;
+        height: 30px;
+    }
+    .agent_detail_wrapper {
+        max-width: 220px;
+        bottom: 85px;
+        right: 85px;
+    }
+    .agent_right_block , .agent_image_wrapper {
+        bottom: 85px;
+        right: 20px;
+    }
+
+    .agent_detail_box_wrapper_lyt {
+        max-width: 260px;
+    }
+
+    .agent_card_icon_lyt svg {
+        width: 26px;
+        height: 26px;
+    }
+
+    .agent_card_bottom_content_lyt .agent_image {
+        max-width: 45px;
+    }
+
+    .agent_card_bottom_content_lyt .agent_name h2 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        max-width: 210px;
+    }
+
+    .agent_det_box_layout_3 .agent_detail_share_wrapper {
+        padding: 15px 15px 15px 25px;
+    }
+
+    .agent_det_box_layout_5 .agent_detail_share_wrapper {
+        padding: 10px;
+    }
+
+}
+/****************** End All Sections CSS ********************/

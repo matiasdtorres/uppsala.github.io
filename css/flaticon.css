@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "flaticon_gyim";
+    src: url("../fonts/flaticon_gyim4c95.ttf?35bc0d6faf8578a02bab2b74ad597c15") format("truetype"),
+url("../fonts/flaticon_gyim4c95.woff?35bc0d6faf8578a02bab2b74ad597c15") format("woff"),
+url("../fonts/flaticon_gyim4c95.woff2?35bc0d6faf8578a02bab2b74ad597c15") format("woff2"),
+url("../fonts/flaticon_gyim4c95.eot?35bc0d6faf8578a02bab2b74ad597c15#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_gyim4c95.svg?35bc0d6faf8578a02bab2b74ad597c15#flaticon_gyim") format("svg");
+}
+
+i[class^="flaticon_gyim-"]:before, 
+i[class*=" pbmit-gyim-icon-"]:before {
+    font-family: flaticon_gyim !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-gyim-icon-scale:before {
+    content: "\f101";
+}
+.pbmit-gyim-icon-muscle:before {
+    content: "\f102";
+}
+.pbmit-gyim-icon-yoga-position:before {
+    content: "\f103";
+}
+.pbmit-gyim-icon-waist:before {
+    content: "\f104";
+}
+.pbmit-gyim-icon-sauna:before {
+    content: "\f105";
+}
+.pbmit-gyim-icon-changing-room:before {
+    content: "\f106";
+}
+.pbmit-gyim-icon-burn:before {
+    content: "\f107";
+}
+.pbmit-gyim-icon-abs:before {
+    content: "\f108";
+}
+.pbmit-gyim-icon-power:before {
+    content: "\f109";
+}
+.pbmit-gyim-icon-whistle:before {
+    content: "\f10a";
+}
+.pbmit-gyim-icon-sneaker:before {
+    content: "\f10b";
+}
+.pbmit-gyim-icon-medicine-ball:before {
+    content: "\f10c";
+}
+.pbmit-gyim-icon-yoga-ball:before {
+    content: "\f10d";
+}
+.pbmit-gyim-icon-heart-rate:before {
+    content: "\f10e";
+}
+.pbmit-gyim-icon-gym-machine:before {
+    content: "\f10f";
+}
+.pbmit-gyim-icon-dumbbells:before {
+    content: "\f110";
+}
+.pbmit-gyim-icon-water-bottle:before {
+    content: "\f111";
+}
+.pbmit-gyim-icon-stationary-bike:before {
+    content: "\f112";
+}
+.pbmit-gyim-icon-treadmill:before {
+    content: "\f113";
+}
+.pbmit-gyim-icon-shower-head:before {
+    content: "\f114";
+}
+.pbmit-gyim-icon-gym:before {
+    content: "\f115";
+}
+.pbmit-gyim-icon-pulsometer:before {
+    content: "\f116";
+}
+.pbmit-gyim-icon-gym-1:before {
+    content: "\f117";
+}
+.pbmit-gyim-icon-lockers:before {
+    content: "\f118";
+}
+.pbmit-gyim-icon-swedish-wall:before {
+    content: "\f119";
+}
+.pbmit-gyim-icon-trainer:before {
+    content: "\f11a";
+}
+.pbmit-gyim-icon-sweatshirt:before {
+    content: "\f11b";
+}
+.pbmit-gyim-icon-rowing:before {
+    content: "\f11c";
+}
+.pbmit-gyim-icon-chronometer:before {
+    content: "\f11d";
+}
+.pbmit-gyim-icon-yoga-mat:before {
+    content: "\f11e";
+}
+.pbmit-gyim-icon-energy-bar:before {
+    content: "\f11f";
+}
+.pbmit-gyim-icon-protein:before {
+    content: "\f120";
+}
+.pbmit-gyim-icon-boxing-bag:before {
+    content: "\f121";
+}
+.pbmit-gyim-icon-fruit:before {
+    content: "\f122";
+}
+.pbmit-gyim-icon-shorts:before {
+    content: "\f123";
+}
+.pbmit-gyim-icon-boxing-gloves:before {
+    content: "\f124";
+}
+.pbmit-gyim-icon-towel:before {
+    content: "\f125";
+}
+.pbmit-gyim-icon-app:before {
+    content: "\f126";
+}
+.pbmit-gyim-icon-weight:before {
+    content: "\f127";
+}
+.pbmit-gyim-icon-pommel-horse:before {
+    content: "\f128";
+}
+.pbmit-gyim-icon-hand-grip:before {
+    content: "\f129";
+}
+.pbmit-gyim-icon-gym-gloves:before {
+    content: "\f12a";
+}
+.pbmit-gyim-icon-barbell:before {
+    content: "\f12b";
+}
+.pbmit-gyim-icon-jumping-rope:before {
+    content: "\f12c";
+}
+.pbmit-gyim-icon-kettlebell:before {
+    content: "\f12d";
+}
+.pbmit-gyim-icon-orange-juice:before {
+    content: "\f12e";
+}
+.pbmit-gyim-icon-plan:before {
+    content: "\f12f";
+}
+.pbmit-gyim-icon-sport-bag:before {
+    content: "\f130";
+}
+.pbmit-gyim-icon-swimming-pool:before {
+    content: "\f131";
+}
+.pbmit-gyim-icon-wellness:before {
+    content: "\f132";
+}
+.pbmit-gyim-icon-call:before {
+    content: "\f133";
+}
+.pbmit-gyim-icon-mail:before {
+    content: "\f134";
+}
+.pbmit-gyim-icon-email:before {
+    content: "\f135";
+}
+.pbmit-gyim-icon-paper-plane:before {
+    content: "\f136";
+}
+.pbmit-gyim-icon-pin:before {
+    content: "\f137";
+}

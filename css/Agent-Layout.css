@@ -1,0 +1,992 @@
+/***************** Agent Layout CSS *****************/
+
+.agent_image_wrapper,
+.agent_detail_wrapper,
+.call_button_cross_svg {
+    display: none;
+}
+.agent_det_box_layout_3 .agent_detail_share_wrapper {
+    background: linear-gradient(white,white) padding-box, linear-gradient(to bottom, rgba(37, 211, 102, 0) 30%, #25d366) border-box;
+}
+.call_button_desc h2 {
+    color: #ffffff;
+}
+.call_button_svg {
+    background-color: #25d366
+}
+.agent_det_box_layout_1 .agent_detail_share_wrapper {
+    background-color: #25d36619;
+}
+.agent_about.agent_name h2, .agent_detail_box_wrapper_lyt .agent_name h2 {
+    color: #000000;
+}
+.agent_about.agent_position h3, .agent_detail_box_wrapper_lyt .agent_position h3 {
+    color: #666666;
+}
+.agent_detail_contact_number a {
+    color: #ffffff;
+}
+.agent_detail_box_wrapper_lyt .agent_description p {
+    color: #ffffff;
+}
+.agent_detail_box.agent_detail_box_lyt_3, .agent_detail_box.agent_detail_box_lyt_4 {
+    background-color: #25d366;
+}
+.agent_img_name_position_wrapper.agent_layout-5, .agent_img_name_position_wrapper.agent_layout-6 {
+    background-color: #25d366;
+}
+.agent_img_name_position_wrapper.agent_layout-4:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff99;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.agent_det_box_layout_4 .agent_card_title {
+    color: #25d366;
+}
+.agent_det_box_layout_1 .agent_card_title, .agent_det_box_layout_2 .agent_card_title, .agent_det_box_layout_3 .agent_card_title, .agent_det_box_layout_5 .agent_card_title {
+    color: #ffffff;
+}
+.agent_det_box_layout_4 .wc_svg_wrapper svg path {
+    fill: #25d366;
+}
+.agent_det_box_layout_1 .agent_card_top_content_lyt, .agent_det_box_layout_2 .agent_card_top_content_lyt, .agent_det_box_layout_3 .agent_card_top_content_lyt, .agent_det_box_layout_5 .agent_card_top_content_lyt {
+    background: #25d366;
+}
+.agent_det_box_layout_5 .agent_detail_share_wrapper:nth-child(odd) {
+    background-color: #25d36619;
+}
+.agent_det_box_layout_5 .agent_detail_share_wrapper:nth-child(even) {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.layout-4-title{
+    display: none 
+}
+.agent_det_box_layout_4 .agent_card_title{
+    display: none;
+}
+.agent_det_box_layout_4 .agent_card_title.layout-4-title{
+    display: block !important;
+}
+.agent_det_box_layout_5 .agent_card_icon_lyt .wc_svg_wrapper svg path,
+.agent_det_box_layout_5 .agent_card_title{
+    fill:#075E54;
+    color: #075E54;
+}
+.agent_det_box_layout_6 .agent_about.agent_name h2,
+.agent_det_box_layout_6 .agent_about.agent_position h3{
+    color: #FFF;
+}
+.agent_det_box_layout_8 .agent_about.agent_name h2{
+    color:#25D366 !important;
+}
+.agent_det_box_layout_9 .agent_about.agent_name h2{
+    color:#000 !important;
+}
+.agent_det_box_layout_10 .agent_about.agent_position h3{
+    color: #25D366;
+}
+/***************** Agent Layout 1 CSS *****************/
+
+.agent_right_block {
+    position: fixed;
+    bottom: 130px;
+    right: 60px; 
+}
+.agent_detail_box_wrapper_lyt {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    max-width: 330px;
+    width: 330px;
+    position: relative;
+}
+.agent_det_box_layout_1 .agent_detail_box_lyt_6_overlay {
+    display: none;
+}
+.agent_card_top_content_lyt {
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    position: relative;
+}
+.agent_card_top_content_lyt .agent_card_icon_title_wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.agent_card_icon_lyt .wc_svg_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4px;
+}
+.agent_card_icon_lyt svg {
+    width: 40px;
+    height: 40px;
+}
+.agent_card_top_content_lyt .agent_card_title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.agent_card_top_content_lyt .agent_description p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.agent_card_bottom_content_lyt {
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    position: relative;
+}
+.agent_card_bottom_content_lyt .agent_detail_share_wrapper {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.agent_card_bottom_content_lyt .agent_detail_share_wrapper:last-child {
+    margin-bottom: 0;
+}
+.agent_card_bottom_content_lyt .agent_image {
+    max-width: 60px;
+    border-radius: 5px;
+}
+.agent_card_bottom_content_lyt .agent_name {
+    margin-bottom: 4px;
+}
+.agent_card_bottom_content_lyt .agent_name h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.agent_card_bottom_content_lyt .agent_position {
+    margin-bottom: 0;
+}
+.agent_card_bottom_content_lyt .agent_position h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+.agent_card_bottom_content_lyt .agent_about {
+    position: relative;
+    margin-right: 10px;
+}
+.agent_card_bottom_content_lyt .agent_about.agent_online::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #25D366;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+   z-index: 1;
+}
+.agent_card_bottom_content_lyt .agent_about.agent_offline::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #ED2727;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+.agent_card_bottom_content_lyt .agent_about.agent_offline::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #ED2727;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+.agent_det_box_layout_1 .circle_1,
+.agent_det_box_layout_1 .circle_2,
+.agent_det_box_layout_1 .circle_3,
+.agent_det_box_layout_1 .circle_4 {
+    display: none;
+}
+
+/***************** Agent Layout 2 CSS *****************/
+
+.agent_det_box_layout_2 .agent_card_top_content_lyt {
+    text-align: center;
+}
+.agent_det_box_layout_2 .agent_card_icon_lyt {
+    display: none;
+}
+.agent_det_box_layout_2 .agent_card_icon_title_wrapper {
+    justify-content: center;
+}
+.agent_det_box_layout_2 .agent_card_title {
+    font-size: 22px;
+    line-height: 27px;
+}
+.agent_det_box_layout_2 .agent_detail_share_wrapper {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+}
+.agent_det_box_layout_2 .circle_1,
+.agent_det_box_layout_2 .circle_2,
+.agent_det_box_layout_2 .circle_3,
+.agent_det_box_layout_2 .circle_4 {
+    display: none;
+}
+
+/***************** Agent Layout 3 CSS *****************/
+
+.agent_det_box_layout_3 .wc_svg_wrapper {
+    margin-right: 10px;
+}
+.agent_det_box_layout_3 .agent_card_icon_lyt svg {
+    width: 24px;
+    height: 24px;
+}
+.agent_det_box_layout_3 .agent_card_title {
+    font-size: 20px;
+    line-height: 24px;
+}
+.agent_det_box_layout_3 .agent_detail_share_wrapper {
+    width: 260px;
+    max-width: 260px;
+    border: 2px solid #0000;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 20px 20px 20px 40px;
+    position: relative;
+    backdrop-filter: blur(3px);
+    box-sizing: border-box;
+}
+.agent_det_box_layout_3 .agent_about {
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    transform: translateY(-50%);
+}
+.circle_1 {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #EAB308;
+    filter: blur(150px);
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+.circle_2 {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #DC2626;
+    filter: blur(150px);
+    border-radius: 100%;
+    position: absolute;
+    top: 48px;
+    right: -8px;
+}
+.circle_3 {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #7C3AED;
+    filter: blur(150px);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: -30px;
+}
+.circle_4 {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background: #4ADE80;
+    filter: blur(150px);
+    border-radius: 100%;
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+/***************** Agent Layout 4 CSS *****************/
+
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_4 .agent_card_top_content_lyt {
+    background-color: #000000;
+}
+.agent_det_box_layout_4 .agent_card_icon_lyt .wc_svg_wrapper,
+.agent_det_box_layout_5 .agent_card_icon_lyt .wc_svg_wrapper {
+    margin-right: 10px;
+}
+.agent_det_box_layout_4 .agent_card_icon_lyt svg,
+.agent_det_box_layout_5 .agent_card_icon_lyt svg {
+    width: 24px;
+    height: 24px;
+}
+.agent_det_box_layout_4 .agent_card_title,
+.agent_det_box_layout_5 .agent_card_title {
+    font-size: 20px;
+    line-height: 24px;
+}
+.agent_det_box_layout_4 .agent_card_bottom_content_lyt {
+    background-color: #FFFFFF;
+}
+.agent_det_box_layout_4 .circle_1,
+.agent_det_box_layout_4 .circle_2,
+.agent_det_box_layout_4 .circle_3,
+.agent_det_box_layout_4 .circle_4 {
+    filter: blur(100px);
+}
+.agent_det_box_layout_4 .agent_list {
+    position: relative;
+}
+.agent_det_box_layout_4 .agent_detail_share_wrapper {
+    border-bottom: 2px solid #FFFFFF;
+    border-radius: 0;
+    padding: 20px 0;
+    margin: 0;
+}
+.agent_det_box_layout_4 .agent_detail_share_wrapper:first-child {
+    padding-top: 0;
+}
+.agent_det_box_layout_4 .agent_detail_share_wrapper:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/***************** Agent Layout 5 CSS *****************/
+
+.agent_det_box_layout_5 .agent_detail_box_lyt_6_overlay {
+    display: none;
+}
+.agent_det_box_layout_5 .agent_card_bottom_content_lyt {
+    padding: 0;
+}
+.agent_det_box_layout_5 .circle_1,
+.agent_det_box_layout_5 .circle_2,
+.agent_det_box_layout_5 .circle_3,
+.agent_det_box_layout_5 .circle_4 {
+    display: none;
+}
+.agent_det_box_layout_5 .agent_detail_share_wrapper {
+    border-radius: 0;
+    margin: 0;
+    padding: 20px;
+}
+.agent_image_wrapper {
+    position: relative;
+    margin-top: 10px;
+}
+.agent_image_content {
+    max-width: 56px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.open .agent_image_content{
+    border: 2px solid #25D366;
+    max-width: 56px;
+}
+.agent_image.agent_online::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #25D366;
+    border-radius: 3.5px;    
+    -webkit-appearance: none;
+    -webkit-border-radius: 3.5px;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.agent_image.agent_offline::after {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #ED2727;
+    border-radius: 3.7px;    
+    -webkit-appearance: none;
+    -webkit-border-radius: 3.5px;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.agent_online.agent_side_img_layout_7,
+.agent_offline.agent_side_img_layout_6{
+    position: relative;
+}
+
+.agent_image_wrapper.agent_online::before,
+.agent_online.agent_side_img_layout_7::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #25D366;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    z-index: 1;
+}
+.agent_image_wrapper.agent_offline::before,
+.agent_offline.agent_side_img_layout_6::before{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #ED2727;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    z-index: 1;
+}
+.agent_image_content.agent_active {
+    border: 2px solid #25D366;
+}
+.agent_detail_wrapper {
+    width: 330px;
+    max-width: 330px;
+    position: fixed;
+    bottom: 130px;
+    right: 130px;
+}
+.agent_detail_box {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.agent_name {
+    margin-bottom: 10px;
+}
+.agent_name h2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.agent_position {
+    margin-bottom: 20px;
+}
+.agent_position h3 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0px;
+    text-transform: capitalize;
+}
+.agent_description p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+}
+.agent_detail_call_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 12px;
+}
+.agent_detail_call_icon {
+    margin-right: 10px;
+    height: 24px;
+}
+.agent_detail_call_icon svg {
+    width: 24px;
+    height: 24px;
+}
+.agent_detail_contact_number h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    text-transform: capitalize;
+}
+.agent_right_block.single_agent .agent_detail_wrapper {
+    right: 60px;
+}
+.whatsapp_chat_widgets.both {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.call_button_svg .wc_svg_wrapper {
+    height: 32px;
+    width: 31px;
+}
+
+/***************** Agent Layout 2 CSS *****************/
+
+.agent_top_color_lyt_2,
+.agent_top_color_lyt_3,
+.agent_top_color_lyt_5,
+.agent_top_color_lyt_6 {
+    display: none;
+}
+
+/***************** Agent Layout 3 CSS *****************/
+
+.agent_detail_box.agent_detail_box_lyt_3 .agent_detail_call_button {
+    border-radius: 5px;
+}
+
+/***************** Agent Layout 4 CSS *****************/
+
+.agent_right_block.single_agent .agent_detail_box.agent_detail_box_lyt_4:after {
+    content: none;
+}
+.agent_img_name_position_wrapper.agent_layout-4 {
+    position: relative;
+}
+.agent_img_name_position_wrapper.agent_layout-4 .agent_about:last-child {
+    margin-bottom: 0;
+}
+.agent_detail_box.agent_detail_box_lyt_4 {
+    padding: 0;
+}
+.agent_img_name_position_wrapper.agent_layout-4 {
+    padding: 30px;
+}
+.agent_detail_box.agent_detail_box_lyt_4 .agent_desc_button_wrapper {
+    padding: 30px;
+}
+.agent_detail_box.agent_detail_box_lyt_4 .agent_desc_button_wrapper .agent_bottom_detail:first-child p {
+    margin-top: 0;
+}
+
+/***************** Agent Layout 5 CSS *****************/
+
+.agent_img_name_position_wrapper.agent_layout-5 {
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+.agent_detail_box.agent_detail_box_lyt_5 {
+    padding: 0;
+}
+.agent_detail_box.agent_detail_box_lyt_5 .agent_desc_button_wrapper {
+    padding: 30px;
+}
+.agent_detail_box.agent_detail_box_lyt_5 .agent_desc_button_wrapper .agent_bottom_detail:first-child p {
+    margin-top: 0;
+}
+.agent_img_name_position_wrapper.agent_layout-5 .agent_about:last-child {
+    margin-bottom: 0;
+}
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_6,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_7,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_8,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_9,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_10 {
+    display: none !important;
+}
+
+/***************** Agent Layout 6 CSS *****************/
+
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_6,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_7,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_8,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_9,
+.agent_detail_box_wrapper_lyt.agent_detail_box_lyt_10 {
+    width: 330px;
+    max-width: 330px;
+    border-radius: 10px;
+    padding: 0;
+    position: relative;
+}
+.agent_detail_box.agent_detail_box_lyt_6 {
+    padding: 0px;
+}
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_6 .agent_card_top_content_lyt {
+    background:  #075e54;
+}
+.agent_detail_box_lyt_6_overlay {
+    content: "";
+    background-image: url(../images/pattern.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.agent_detail_top_content_lyt_6 {
+    position: relative;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+}
+.agent_image_detail_wrapper {
+    display: flex;
+    align-items: center;
+}
+.agent_image_wrapper{
+    position: fixed;
+    bottom: 130px;
+    right: 60px;
+}
+.agent_detail_top_content_lyt_6 .agent_image_wrapper {
+    margin-top: 0;
+}
+.agent_detail_top_content_lyt_6 .agent_image {
+    max-width: 60px;
+    border-radius: 10px;
+}
+.agent_detail_top_content_lyt_6 .agent_name {
+    text-align: left;
+    margin-bottom: 6px;
+}
+.agent_detail_top_content_lyt_6 .agent_position {
+    text-align: left;
+    margin-bottom: 0;
+}
+.agent_detail_bottom_content_lyt_6 {
+    position: relative;
+    padding: 20px;
+}
+.agent_detail_bottom_content_lyt_6 .agent_name_desc_wrapper {
+    max-width: 200px;
+    background-color: #FFFFFF;
+    padding: 10px 10px 30px 10px;
+    border-radius: 0 10px 10px 10px;
+    position: relative;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.agent_detail_bottom_content_lyt_6 .agent_name_desc_wrapper::before {
+    content: "";
+    background-image: url(../images/shape-lyt-6.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    left: -12px;
+    width: 12px;
+    height: 19px;
+}
+.agent_detail_bottom_content_lyt_6 .agent_name {
+    margin-bottom: 0;
+}
+.agent_detail_bottom_content_lyt_6 .agent_about.agent_name h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666 !important;
+    margin-bottom: 10px;
+}
+.agent_wrapper.agent_det_box_layout_6 .agent_detail_top_content_lyt_6 {
+    background-color: #075e54;
+}
+.agent_wrapper.agent_det_box_layout_6 .agent_detail_bottom_content_lyt_6 {
+    background-color: #075e544d;
+}
+.agent_detail_box_lyt_6 .agent_image_wrapper {
+    display: block !important;
+}
+.agent_wrapper.agent_det_box_layout_1 .agent_detail_wrapper,
+.agent_wrapper.agent_detail_box_lyt_2 .agent_detail_wrapper, 
+.agent_wrapper.agent_detail_box_lyt_3 .agent_detail_wrapper, 
+.agent_wrapper.agent_detail_box_lyt_4 .agent_detail_wrapper, 
+.agent_wrapper.agent_detail_box_lyt_5 .agent_detail_wrapper,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_6,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_7,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_8,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_9,
+.agent_detail_box_wrapper_lyt.agent_det_box_layout_10{ 
+    display: none !important;
+}
+.agent_wrapper.agent_det_box_layout_6 .agent_detail_wrapper,
+.agent_wrapper.agent_det_box_layout_7 .agent_detail_wrapper, 
+.agent_wrapper.agent_det_box_layout_8 .agent_detail_wrapper, 
+.agent_wrapper.agent_det_box_layout_9 .agent_detail_wrapper, 
+.agent_wrapper.agent_det_box_layout_10 .agent_detail_wrapper,
+.agent_wrapper.agent_det_box_layout_6 .agent_image_wrapper,
+.agent_wrapper.agent_det_box_layout_7 .agent_image_wrapper,   
+.agent_wrapper.agent_det_box_layout_8 .agent_image_wrapper,   
+.agent_wrapper.agent_det_box_layout_9 .agent_image_wrapper, 
+.agent_wrapper.agent_det_box_layout_10 .agent_image_wrapper{
+    display: block !important;
+}
+.agent_det_box_layout_6 .agent_detail_box,
+.agent_det_box_layout_7 .agent_detail_box,
+.agent_det_box_layout_8 .agent_detail_box,
+.agent_det_box_layout_9 .agent_detail_box,
+.agent_det_box_layout_10 .agent_detail_box {
+    display: none;
+} 
+
+.agent_wrapper.agent_det_box_layout_7 .agent_detail_top_content_lyt_6 {
+    background-color: #ffffff4d;
+}
+.agent_wrapper.agent_det_box_layout_7 .agent_detail_bottom_content_lyt_6 {
+    background-color: #075e54;
+}
+
+/***************** Agent Layout 8 CSS *****************/
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 ,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6  {
+    background-color: #075e54;
+    padding: 30px 20px;
+}
+
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 .agent_image_detail_wrapper,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6 .agent_image_detail_wrapper
+ {
+    display: block;
+}
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6  .agent_image_wrapper.agent_offline ,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6  .agent_image_wrapper.agent_offline ,
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6  .agent_image_wrapper.agent_online ,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6  .agent_image_wrapper.agent_online {
+    width: 60px;
+    margin: 0 auto !important;
+}
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 .agent_about.agent_name ,
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 .agent_about.agent_position.agent_border_lyt_4,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6 .agent_about.agent_name ,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6 .agent_about.agent_position.agent_border_lyt_4  {
+    text-align:center; 
+}
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 .agent_about.agent_name h2 ,
+.agent_det_box_layout_8 .agent_detail_top_content_lyt_6 .agent_about.agent_position.agent_border_lyt_4 h3,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6 .agent_about.agent_name h2 ,
+.agent_det_box_layout_9 .agent_detail_top_content_lyt_6 .agent_about.agent_position.agent_border_lyt_4 h3 { 
+    color: #fff;
+}
+.agent_det_box_layout_8 .agent_detail_bottom_content_lyt_6,
+.agent_det_box_layout_9 .agent_detail_bottom_content_lyt_6 ,
+.agent_det_box_layout_10 .agent_detail_bottom_content_lyt_6,
+.agent_det_box_layout_10 .agent_detail_top_content_lyt_6{
+    display: none;
+}
+.agent_detail_box.agent_detail_box_lyt_8,
+.agent_detail_box.agent_detail_box_lyt_9,
+.agent_detail_box.agent_detail_box_lyt_10 {
+    background-color: transparent !important;
+}
+.agent_detail_top_content_lyt_6.layout_8 {
+    padding: 30px 20px;
+}
+.agent_image_detail_wrapper.layout_8 {
+    display: block;
+}
+.agent_image_box {
+    display: inline-block;
+    position: relative;
+}
+.agent_detail_top_content_lyt_6.layout_8 .agent_image {
+    margin-bottom: 10px;
+}
+.agent_image_box.agent_online::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #25D366;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+.agent_image_box.agent_offline::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #ED2727;
+    border-radius: 100%;
+    outline: 3px solid #FFFFFF;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 1;
+}
+.agent_detail_top_content_lyt_6.layout_8 .agent_name {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.agent_image_detail_wrapper.layout_8 .agent_description p {
+    line-height: 20px;
+}
+.agent_detail_middle_content {
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+    display: none;
+}
+.agent_detail_bottom_content ,.agent_det_box_layout_8 .agent_detail_box_lyt_6_overlay , .agent_det_box_layout_9 .agent_detail_box_lyt_6_overlay ,  .agent_det_box_layout_10 .agent_detail_box_lyt_6_overlay{
+    display: none;
+}
+.agent_det_box_layout_8 .agent_detail_middle_content , .agent_det_box_layout_8 .agent_detail_bottom_content{
+    display: block;
+}
+.agent_det_box_layout_8 .agent_detail_box{
+    background-color: transparent;
+}
+.agent_detail_middle_content h3 {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0;
+}
+.agent_card_form {
+    display: inline-block;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.agent_card_form textarea {
+    float: left;
+    width: 80%;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    resize: none;
+    line-height: 18px;
+}
+.agent_card_form textarea::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    text-transform: capitalize;
+}
+.agent_card_form textarea:focus-visible {
+    outline: none;
+}
+.agent_form_send_button {
+    float: right;
+    width: 20%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.agent_form_send_svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/***************** Agent Layout 9 CSS *****************/
+.agent_det_box_layout_9 .agent_detail_bottom_content{
+    display: block;
+}
+.agent_detail_box.agent_detail_box_lyt_9 .agent_detail_middle_content {
+    display: none;
+}
+.agent_detail_box.agent_detail_box_lyt_9 .agent_card_form,
+.agent_detail_box.agent_detail_box_lyt_10 .agent_card_form {
+    border-radius: 0 0 10px 10px;
+}
+.agent_detail_box.agent_detail_box_lyt_9 .agent_card_form textarea,
+.agent_detail_box.agent_detail_box_lyt_10 .agent_card_form textarea {
+    padding: 20px;
+    height: 64px;
+    line-height: 22px;
+    font-size: 17px;
+}
+.agent_detail_box.agent_detail_box_lyt_9 .agent_form_send_button,
+.agent_detail_box.agent_detail_box_lyt_10 .agent_form_send_button {
+    height: 64px;
+}
+.agent_detail_box.agent_detail_box_lyt_9 .agent_card_form textarea::placeholder,
+.agent_detail_box.agent_detail_box_lyt_10 .agent_card_form textarea::placeholder {
+    height: 24px;
+    line-height: 24px;
+}
+
+/***************** Agent Layout 10 CSS *****************/
+
+.agent_name_position_wrapper.agent_card_icon_lyt_10{
+    display: none;
+}
+.agent_det_box_layout_10 .agent_name_position_wrapper.agent_card_icon_lyt_10{
+    display: block;
+}
+.agent_det_box_layout_10 .agent_detail_bottom_content{
+    display: block;
+}
+.agent_det_box_layout_10 .agent_name_position_wrapper.agent_card_icon_lyt_10 {
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    background-color: #075e54;
+}
+.agent_det_box_layout_10 .agent_card_form textarea { 
+    height: auto; 
+    padding: 22px 20px;
+    line-height: 22px;
+}
+.agent_det_box_layout_10 .agent_card_form textarea::placeholder {
+    line-height: 22px;
+}
+.agent_det_box_layout_10 .agent_card_form {
+    display: flex; 
+    height: 66px;
+}
+.agent_det_box_layout_10 .agent_form_send_button{
+    height: auto;
+}
+.agent_det_box_layout_10 .agent_position h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.agent_det_box_layout_10 .agent_position {
+    margin-bottom: 0px;
+}
+.agent_det_box_layout_10 .agent_description p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    color: #fff;
+}
+.agent_detail_box.agent_detail_box_lyt_10 .agent_position {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.agent_detail_box.agent_detail_box_lyt_10 .agent_position h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.agent_card_icon_lyt_10 .wc_svg_wrapper {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.agent_card_icon_lyt_10 .wc_svg_wrapper svg {
+    width: 40px;
+    height: 40px;
+}
