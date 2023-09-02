@@ -346,7 +346,7 @@
 
 	</style>
 
-	<!-- Modal de contacto -->
+  	<!-- Modal de contacto -->
 	<div class="modal fade modal-fondo-negro" id="modal-contacto">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -359,7 +359,11 @@
 				<!-- Cuerpo del modal -->
 				<div class="modal-body">
 					<!-- Formulario de contacto -->
-					<form action="tu-url-de-accion.php" method="POST">
+					<form id="clasePrueba" action="https://script.google.com/macros/s/AKfycbzP-2fNLT9jKWXYSvGveAFrYekKYxhCqO4MpHQ5SaH4MSL7Qe358m_RO-AHfPoEyVo/exec" method="POST">
+
+						<!-- Formulario de contacto -->
+						<input type="hidden" name="formulario" value="clasePrueba">
+
 						<div class="col-xs-6 form-group uppsala-col-6">
 							<input type="text" name="nombre" class="form-control input-lg" placeholder="Nombre" required>
 						</div>
@@ -372,7 +376,7 @@
 								<input type="email" name="email" class="form-control input-lg" placeholder="Email" required>
 							</div>
 							<div class="col-xs-6 form-group uppsala-col-6">
-								<input type="number" name="telefono" class="form-control input-lg" placeholder="Celular" required>
+								<input type="tel" name="tel" class="form-control input-lg" placeholder="Celular" required>
 							</div>
 							<div class="clearfix"></div>
 						</div>
@@ -387,7 +391,7 @@
 		</div>
 	</div>
 
-   	<!-- Tu JavaScript al final del cuerpo -->
+	<!-- Tu JavaScript al final del cuerpo -->
 	<script>
 		// Función para abrir el modal
 		document.getElementById("abrir-modal").addEventListener("click", function() {
@@ -398,6 +402,33 @@
 		document.getElementById("cerrar-modal").addEventListener("click", function() {
 			document.getElementById("modal-contacto").style.display = "none";
 		});
+	</script>
+
+	<script>
+		function enviarDatos(formulario) {
+			formulario.addEventListener("submit", function (e) {
+				e.preventDefault();
+				const formData = new FormData(this);
+				fetch("https://script.google.com/macros/s/AKfycbzP-2fNLT9jKWXYSvGveAFrYekKYxhCqO4MpHQ5SaH4MSL7Qe358m_RO-AHfPoEyVo/exec", {
+				method: "POST",
+				body: formData
+				})
+				.then(() => {
+				// Success message
+				alert("¡Datos enviados con éxito!");
+				formulario.reset();
+				})
+				.catch(() => {
+				// Error message
+				alert("¡Error al enviar datos!");
+				formulario.reset();
+				});
+			});
+		}
+
+		// Manejar el formulario de Clase de Prueba
+		const clasePruebaForm = document.getElementById("clasePrueba");
+		enviarDatos(clasePruebaForm);
 	</script>
  
    <!-- JS 
@@ -436,6 +467,11 @@
       <script src='js/gsap-animation.js'></script>
       <!-- Scripts JS -->
       <script src="js/scripts.js"></script>
+
+	  <!-- MODAL -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
       
 </body>
 
