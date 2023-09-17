@@ -7,8 +7,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Planificacion CROSSFIT</title>
+    <title>Planificacion DESCENDANT</title>
   
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+    
     <!-- CSS
          ============================================ -->
       <!-- Bootstrap CSS -->
@@ -128,7 +132,7 @@
    </section>
    <!-- Marquee End -->
    
-      <h1 class="text-center">Planificacion CROSSFIT</h1>
+      <h1 class="text-center">DESCENDANT</h1>
       <div class="containerTABLA">
         <!-- Script auto refresh -->
         <div id="refresh-button"></div>
@@ -262,7 +266,7 @@
       function loadData() {
         // Spreadsheet ID
         const spreadsheetId = "1kcoGBYkc4YWk5uSH79j5GZ_i6MrdBsqyHmTUjqRGWrc";
-        const range = "CLASE";
+        const range = "DESCENDANT";
         getPublicValues({ spreadsheetId, range }, displayResult2);
       }
 
@@ -302,7 +306,7 @@
         // Function to fetch data from the server and update the table
         function refreshTable() {
           const spreadsheetId = "1kcoGBYkc4YWk5uSH79j5GZ_i6MrdBsqyHmTUjqRGWrc";
-          const range = "CLASE";
+          const range = "DESCENDANT";
 
           fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/${range}?key=${API_KEY}`)
             .then((response) => response.json())

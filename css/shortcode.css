@@ -44,7 +44,7 @@
     font-size: 14px;
     line-height: 36px;
     letter-spacing: 1px;
-    color: #adfe19;
+    color: #79170F;
     text-transform: none;
     font-style: normal;
 	margin-bottom: 10px;
@@ -1581,7 +1581,7 @@
 	font-size: 15px;
 	line-height: 32px;
 	letter-spacing: 0;
-	color: #adfe19;
+	color: #79170F;
 	text-transform: uppercase;
 	font-style: normal;
 }
@@ -2918,12 +2918,12 @@ a.pbmit-rev-btn-effect-reverse:hover span {
 	font-size: 18px;
 	font-weight: 700!important;
 	padding: 8px 0 !important;
-	color: var(--pbmit-blackish-color);
+	color: #fff;
 }
 .pbmit-marquee-effect-style-2 .pbmit-tag-wrapper .pbmit-element-title::before {
 	content: '*';
 	margin: 5px 29px 0 34px;
-    color: var(--pbmit-blackish-color);
+    color: #fff;
 }
 /** Style 3 **/
 .pbmit-marquee-effect-style-3 .pbmit-element-title {
@@ -2975,7 +2975,7 @@ a.pbmit-rev-btn-effect-reverse:hover span {
 	font-size: 36px;
     line-height: 36px;
     font-weight: 700;
-    color: #adfe19;
+    color: #79170F;
     position: relative;
     overflow: visible;
     -webkit-animation: scroll 25s linear infinite;
