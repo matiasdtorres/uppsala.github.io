@@ -194,7 +194,7 @@
 }
 .marquee-section-two{
     padding: 20px 0;
-    background-color: #79170F;
+    background-color: #f80000;
 }
 .team-bg-two{
     padding: 130px 0;
@@ -282,7 +282,7 @@
     padding: 120px 0px 75px 0px;
 }
 .marquee-bg-three{
-    background-color: #79170F;
+    background-color: #f80000;
 }
 .classes-timetable-section{
     padding: 100px 0px 130px 0px;
@@ -1384,7 +1384,7 @@ span.pbmit-comment-date {
     padding: 60px;
 }
 .contact-section .contact-form h4 {
-    color: #79170F;
+    color: #f80000;
     font-size: 30px;
     font-weight: 500;
 }

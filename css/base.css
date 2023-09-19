@@ -17,14 +17,14 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
  :root {
-     --pbmit-global-color: #79170F;
+     --pbmit-global-color: #f80000;
      --pbmit-secondary-color: #080517;
      --pbmit-light-color: #f8f8f8;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #0c0920;
      --pbmit-link-color-normal: #ffffff;
-     --pbmit-link-color-hover: #79170F;
-     --pbmit-global-color-rgb: rgb(121, 23, 25);
+     --pbmit-link-color-hover: #f80000;
+     --pbmit-global-color-rgb: rgb(248, 0, 0);
      --pbmit-secondary-color-rgb:rgb(8, 5, 23);
      --pbmit-responsive-breakpoint: 1200px;
      --pbmit-body-typography-font-family:'Space Grotesk', sans-serif;
@@ -335,7 +335,7 @@ INDEX:
 }
 .pbmit-btn-global{
 	color: var(--pbmit-blackish-color);
-	background-color: #79170F;
+	background-color: #f80000;
 }
 .pbmit-btn-global::before{
 	border-color: var(--pbmit-white-color);

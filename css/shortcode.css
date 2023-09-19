@@ -44,7 +44,7 @@
     font-size: 14px;
     line-height: 36px;
     letter-spacing: 1px;
-    color: #79170F;
+    color: #f80000;
     text-transform: none;
     font-style: normal;
 	margin-bottom: 10px;
@@ -1581,7 +1581,7 @@
 	font-size: 15px;
 	line-height: 32px;
 	letter-spacing: 0;
-	color: #79170F;
+	color: #f80000;
 	text-transform: uppercase;
 	font-style: normal;
 }
@@ -2975,7 +2975,7 @@ a.pbmit-rev-btn-effect-reverse:hover span {
 	font-size: 36px;
     line-height: 36px;
     font-weight: 700;
-    color: #79170F;
+    color: #f80000;
     position: relative;
     overflow: visible;
     -webkit-animation: scroll 25s linear infinite;
