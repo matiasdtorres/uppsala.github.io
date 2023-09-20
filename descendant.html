@@ -465,7 +465,7 @@
 					<div class="pbmit-footer-text-inner">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="pbmit-footer-copyright-text-area"> © 2023 UPPSALA , Todos los derechos reservados</div>
+								<div class="pbmit-footer-copyright-text-area"> © <span id="copyright-year"></span> UPPSALA , Todos los derechos reservados</div>
 							</div>
 							<div class="col-md-6">
 								<div class=" pbmit-footer-menu-area">
@@ -481,7 +481,13 @@
 						</div>
 					</div>
 				</div>
-			</div>	
+			</div>
+         <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              var year = new Date().getFullYear();
+              document.getElementById("copyright-year").textContent = year;
+            });
+         </script>
 		</footer>
 		<!-- footer End -->
    </div>
