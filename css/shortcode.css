@@ -1497,7 +1497,7 @@
     position: fixed;
     width: 100%;
     z-index: 2;
-    background-color: rgba(8,5,23,.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 .header-style-2 .site-branding {
     margin-right: 30px;
@@ -1547,7 +1547,7 @@
 /*  09 - Footer
 /*----------------------------------------*/
 .site-footer {
-    background-color:#080517;
+    background-color:#000000;
     color: rgba(255,255,255,1);
     font-size: 14px;
     position: relative;
@@ -2157,7 +2157,7 @@ body .nav-tabs{
 	-ms-transition: transform 300ms ease 100s;
 	-o-transition: transform 300ms ease 100s;
 	transition: transform 300ms ease 100s;
-	background-color: var(--pbmit-secondary-color);
+	background-color: var(--pbmit-blackish-color);
 }
 .pbmit-element-static-box-style-1 .pbmit-ele-static-box.pbmit-active .pbmit-contentbox {
     opacity: 1;
@@ -2196,7 +2196,7 @@ body .nav-tabs{
 }
 .pbmit-element-static-box-style-1 .pbmit-ele-static-box .pbmit-contentbox .pbminfotech-static-box-desc {
 	margin: 50px 0 30px;
-	color: #b9c5d7;
+	color: #fff;
 	text-transform: none;
 }
 .pbmit-element-static-box-style-1 .pbmit-ele-static-box .pbmit-bg-imgbox .pbmit-text,

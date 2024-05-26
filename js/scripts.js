@@ -121,7 +121,7 @@
                  var swiper2 = new Swiper( '.pbmit-element-viewtype-carousel-' + x, { 
                    spaceBetween: 0,
                    centeredSlides: true,
-                   speed: 19999,
+                   speed: 1999,
                    autoplay: {
                        delay: 1,
                        disableOnInteraction: true,
